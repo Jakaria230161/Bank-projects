@@ -14,11 +14,11 @@ document.getElementById("btn-submit").addEventListener("click", function () {
 
     // Danger : do not verify email or password on the client side
     // step no 4 : verify email and password
-    if (email === "sontan@baap.com" && password === "secret") {
-        console.log("valid user");
+    if (email === "jakariamahmud016@gmail.com" && password === "230161") {
+        window.location.href = 'bank.html';
     }
     else {
-        console.log("invalid user");
+        alert("Enter wrong password, please enter your right password!!!")
     }
 
 })
